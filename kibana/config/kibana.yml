@@ -1,0 +1,8 @@
+---
+server.name: kibana
+server.host: "0"
+
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "********"
+elasticsearch.hosts:  [ "http://服务器内网IP:9200" ]
+xpack.monitoring.ui.container.elasticsearch.enabled: true
